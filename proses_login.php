@@ -15,7 +15,7 @@
                 $_SESSION['id_petugas']=$dt_login['id_petugas'];
                 $_SESSION['nama_petugas']=$dt_login['nama_petugas'];
                 $_SESSION['status_login']=true;
-                header("location: home.php");
+                header("location: produk.php");
             } else {
                 echo "<script>alert('Username dan Password tidak benar');location.href='login.php';</script>";
             }

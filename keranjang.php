@@ -11,8 +11,8 @@
     <tbody>
         <?php
         foreach (@$_SESSION['cart'] as $key_produk => $val_produk) :
-        $subtotal=$val_produk['subtotal'];
-        $subtotal2=number_format($subtotal, 2);?>
+        // $subtotal=$val_produk['subtotal'];
+        // $subtotal2=number_format($subtotal, 2);?>
         <tr>
             <td> <?=($key_produk+1)?> </td> 
             <td> <?=$val_produk['nama_produk']?> </td>
